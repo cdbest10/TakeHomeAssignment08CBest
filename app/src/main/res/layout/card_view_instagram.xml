@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/username" />
+
+        <ImageView
+            android:id="@+id/new_post"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@drawable/marley" />
+
+        <TextView
+            android:id="@+id/post_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/new_post"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="@string/username"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/post_username"
+            android:layout_toEndOf="@+id/post_username"
+            android:layout_toRightOf="@+id/post_username"
+            android:text="@string/follower_count"
+            android:textSize="12sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/post_info"
+            android:layout_below="@id/post_username"/>
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

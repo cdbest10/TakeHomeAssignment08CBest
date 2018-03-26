@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Instagram</string>
+    <string name="username">bestbetruthful</string>
+    <string name="post_count">5</string>
+    <string name="follower_count">Liked by 851 people.</string>
+    <string name="following_count">843</string>
+    <string name="bio_info">Lover of Life. Educator. Survivor. Truth Seeker. UNC. JHU. Columbia.</string>
+    <string name="post_info">Marley\'s eyes.</string>
+</resources>
