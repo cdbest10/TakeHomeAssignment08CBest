@@ -16,7 +16,7 @@
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:src="@drawable/camera"
-
+        tools:ignore="ContentDescription"
         />
     <TextView
         android:id="@+id/app_name_inline"
@@ -34,7 +34,8 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:src="@drawable/directmessage" />
+        android:src="@drawable/directmessage"
+        tools:ignore="ContentDescription"/>
 </RelativeLayout>
 
         <android.support.v7.widget.RecyclerView
