@@ -31,6 +31,6 @@ public class MainActivity extends AppCompatActivity {
         instaposts.add(new Instagram(R.string.araj, R.string.marley_string, R.drawable.marley, R.string.araj));
         instaposts.add(new Instagram(R.string.leapnleash, R.string.fun, R.drawable.fish, R.string.leapnleash));
         instaposts.add(new Instagram(R.string.bestbetruthful, R.string.fun, R.drawable.airforceones, R.string.bestbetruthful));
-
+//Pics were originally too big, not enough memory to run app. Resized and rebuilt app, some minor changes necessary for formatting looks. 
     }
 }
